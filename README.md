@@ -1,3 +1,3 @@
 # Kokoa Clone 2020 Update
 
-CSS got so much better!
+HYML & CSS are so much fun!
