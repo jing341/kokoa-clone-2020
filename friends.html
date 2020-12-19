@@ -35,17 +35,37 @@
         <i class="fas fa-info-circle"></i> Friends' Names Display <i class="fas fa-chevron-right fa-xs"></i>
     </a>
 
+<main class="friends-screen">
     <div class="user-component">
         <div class="user-component__column">
-            <img src="https://avatars2.githubusercontent.com/u/71081705?s=460&u=630c7ece2ce35eba3bb8ec9bb1d3ff9979a14586&v=4" class="user-component__avatar" />
+            <img src="https://avatars2.githubusercontent.com/u/71081705?s=460&u=630c7ece2ce35eba3bb8ec9bb1d3ff9979a14586&v=4" class="user-component__avatar user-component__avatar--xl" />
             <div class="user-component__text">
                 <h4 class="user-component__title">Jiung</h4>
-                <h6 class="user-component__subtitle">this text whatever</h6>
+                <!--<h6 class="user-component__subtitle">this text whatever</h6>-->
             </div>
         </div>
         <div class="user-component__column"></div>
     </div>
-
+    <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+            <span>Channel</span>
+            <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
+        <div class="user-component">
+            <div class="user-component__column">
+                <img src="https://avatars2.githubusercontent.com/u/71081705?s=460&u=630c7ece2ce35eba3bb8ec9bb1d3ff9979a14586&v=4" class="user-component__avatar user-component__avatar--sm" />
+                <div class="user-component__text">
+                    <h4 class="user-component__title user-component__title--not-bold">Channel</h4>                </div>
+            </div>
+            <div class="user-component__column">
+                <div>
+                    <span>2</span>
+                    <i class="fas fa-chevron-right fa-xs"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
     <nav class="nav">
         <ul class="nav__list">
             <li class="nav__btn">
@@ -55,20 +75,20 @@
                 </li>
 
                 <li class="nav__btn">
-                    <a class="nav__link" href="#"
-                    ><span class="nav__notification">1</span>
+                    <a class="nav__link" href="chats.html"
+                    ><span class="nav__notification badge">1</span>
                     <i class="far fa-comment fa-2x"></i
                         ></a>
                     </li>
 
                     <li class="nav__btn">
-                        <a class="nav__link" href="#"
+                        <a class="nav__link" href="find.html"
                         ><i class="fas fa-search fa-2x"></i
                             ></a>
                         </li>
 
                         <li class="nav__btn">
-                            <a class="nav__link nav__ellipsis" href="#">
+                            <a class="nav__link nav__ellipsis" href="more.html">
                                 <span class="nav__000"></span>
                                 <i class="fas fa-ellipsis-h fa-2x">
                                 </i></a>
