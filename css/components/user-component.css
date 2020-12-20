@@ -42,7 +42,7 @@
 }
 
 .user-component__column:last-child {
-  color: rgba(0, 0, 0, 0.4);
+  color: var(--font-color);
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -51,4 +51,8 @@
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+}
+
+.chats-user-space {
+  margin-bottom: 20px;
 }

@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Friend - Kokoa Clone</title>
+    <title>Find - Kokoa Clone</title>
 </head>
 <body>
     <div class="status-bar">
@@ -24,62 +24,50 @@
     </div>
     
     <header class="screen-header">
-        <h1 class="screen-header__title">Friends</h1>
+        <h1 class="screen-header__title">Find</h1>
         <div class="screen-header__icons">
             <span><i class="fas fa-search fa-lg"></i></span>
-            <span><i class="fas fa-music fa-lg"></i></span>
-            <span><i class="fas fa-cog fa-lg"></i></span>
+            <span><i class="fas fa-cog fa-lg"></i><span class="find-000"></span></span>
         </div>
     </header>
 
-    <a href="" id="friends-display-link">
-        <i class="fas fa-info-circle"></i> Friends' Names Display <i class="fas fa-chevron-right fa-xs"></i>
-    </a>
-
-<main class="friends-screen">
-    <div class="user-component">
-        <div class="user-component__column">
-            <img src="https://avatars2.githubusercontent.com/u/71081705?s=460&u=630c7ece2ce35eba3bb8ec9bb1d3ff9979a14586&v=4" class="user-component__avatar user-component__avatar--xl" />
-            <div class="user-component__text">
-                <h4 class="user-component__title">Jiung</h4>
-                <!--<h6 class="user-component__subtitle">this text whatever</h6>-->
-            </div>
+<main class="main-screen">
+    <div class="find-icons">
+        <div class="find-icons__icon">
+            <i class="fas fa-qrcode"></i>
+            <span>QR Code</span>
         </div>
-        <div class="user-component__column"></div>
+        <div class="find-icons__icon">
+            <i class="far fa-address-book"></i>
+            <span>Add by Contacts</span>
+        </div>
+        <div class="find-icons__icon">
+            <i class="fas fa-fingerprint"></i>
+            <span>Add by ID</span>
+        </div>
+        <div class="find-icons__icon">
+            <i class="far fa-envelope"></i>
+            <span>Invite</span>
+        </div>
     </div>
-    <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-            <span>Channel</span>
-            <i class="fas fa-chevron-up fa-xs"></i>
-        </div>
-        <div class="user-component">
-            <div class="user-component__column">
-                <img src="https://avatars2.githubusercontent.com/u/71081705?s=460&u=630c7ece2ce35eba3bb8ec9bb1d3ff9979a14586&v=4" class="user-component__avatar user-component__avatar--sm" />
-                <div class="user-component__text">
-                    <h4 class="user-component__title user-component__title--not-bold">Channel</h4>                </div>
-            </div>
-            <div class="user-component__column">
-                <div>
-                    <span>2</span>
-                    <i class="fas fa-chevron-right fa-xs"></i>
-                </div>
-            </div>
-        </div>
+    <div class="recommended-friends">
+        <h6 class="recommended-friends__title">Recommended Friends</h6>
+        <span>You have no recommended friends.</span>
     </div>
 </main>
+
     <nav class="nav">
         <ul class="nav__list">
             <li class="nav__btn">
                 <a class="nav__link" href="friends.html"
-                ><i class="fas fa-user fa-2x"></i
-                    ></a>
+                ><i class="far fa-user fa-2x"></i></a>
                 </li>
 
                 <li class="nav__btn">
                     <a class="nav__link" href="chats.html"
                     ><span class="nav__notification badge">1</span>
-                    <i class="far fa-comment fa-2x"></i
-                        ></a>
+                    <i class="far fa-comment fa-2x"></i>
+                </a>
                     </li>
 
                     <li class="nav__btn">
