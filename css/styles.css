@@ -9,6 +9,7 @@
 @import "components/alt-screen-header.css";
 @import "components/badge.css";
 @import "components/icon-raw.css";
+@import "components/no-mobile.css";
 
 /* Screens */
 @import "screens/login.css";
@@ -25,4 +26,20 @@ body {
 
 .main-screen {
   padding: 0px var(--horizontal-space);
+}
+
+#splash-screen {
+  z-index: 2;
+  background-color: var(--yellow);
+  position: absolute;
+  height: 107vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 132px;
+  color: #331c1b;
+  animation: hideSplashScreen 0.3s ease-in-out forwards;
+  animation-delay: 2s;
 }

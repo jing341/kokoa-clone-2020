@@ -46,6 +46,7 @@
   font-size: 14px;
   border-radius: 25px;
   margin-bottom: 25px;
+  animation: bangleBangle 0.3s ease-in-out forwards;
 }
 
 .message-row {
@@ -100,16 +101,40 @@
 
 @keyframes hoho {
   0% {
-    transform: skewX(-50deg);
+    transform: translateX(30px);
   }
   50% {
     transform: none;
   }
 }
 
+@keyframes hehe {
+  0% {
+    transform: translateX(-30px);
+  }
+  50% {
+    transform: none;
+  }
+}
+
+@keyframes bangleBangle {
+  0% {
+    opacity: 0;
+    transform: translateY(-70px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 .message-row--own .message__info {
   flex-direction: row-reverse;
-  animation: hoho 1s linear;
+  animation: hoho 0.2s linear forwards;
+}
+
+.opponent .message__info {
+  animation: hehe 0.2s linear forwards;
 }
 
 /*reply*/
