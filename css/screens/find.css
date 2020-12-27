@@ -115,3 +115,22 @@
 .open-post-heart-count span {
   margin-left: 3px;
 }
+
+@keyframes hearthBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.5);
+  }
+  100% {
+    color: white;
+  }
+}
+
+.open-post-heart-count:hover i {
+  will-change: transform;
+  animation: hearthBeat 1s linear infinite;
+}
