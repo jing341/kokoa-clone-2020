@@ -43,3 +43,7 @@ body {
   animation: hideSplashScreen 0.3s ease-in-out forwards;
   animation-delay: 2s;
 }
+
+.tomato-1 {
+  animation: nav__notificationAnimation 3s ease-in-out infinite;
+}
