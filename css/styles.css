@@ -18,6 +18,7 @@
 @import "screens/more.css";
 @import "screens/settings.css";
 @import "screens/chat.css";
+@import "screens/chats.css";
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -42,8 +43,4 @@ body {
   color: #331c1b;
   animation: hideSplashScreen 0.3s ease-in-out forwards;
   animation-delay: 2s;
-}
-
-.tomato-1 {
-  animation: nav__notificationAnimation 3s ease-in-out infinite;
 }

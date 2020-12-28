@@ -1,0 +1,15 @@
+@keyframes tomato-1 {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px) rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.tomato-1 {
+  animation: tomato-1 1s ease-in-out infinite;
+}
