@@ -3,7 +3,7 @@
     transform: none;
   }
   50% {
-    transform: rotateY(360deg);
+    transform: translateY(-5px);
   }
   100% {
     transform: none;
